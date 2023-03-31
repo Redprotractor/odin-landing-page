@@ -1,42 +1,89 @@
 body {
     margin: 0;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.header, .middle, .footer {
-    display: flex;
-}
-
 .header {
+    display: flex;
     justify-content: space-around;
-    height: 72px;
-    background: #1F2937;
-    font: 48px extra-bold;
-    color: #F9FAF8;
-}
-
-.middle {
-    flex: 1;
-    flex-direction: column;
-}
-
-.footer {
-    height: 72px;
-    justify-content: center;
     align-items: center;
     background: #1F2937;
+    height: 60px;
+}
+
+.hero {
+    display: flex;
+    background: #1F2937;
+    padding: 5px;
+    justify-content: center;
+    padding: 25px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-self: center;
 }
 
 .info {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shelf {
+    flex-direction: row;
+    display: inline-flex;
+}
+
+.block {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.left {
+    width: 500px;
+    padding-right: 16px;
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background: #E5E7EB;
     font: 36px light italic #1F2937;
+    margin: 75px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: stretch;
+    align-items: stretch;
+
+}
+
+.call {
+    background: #3882F6;
+    display: flex;
+    color: #E5E7EB;
+    margin: 75px;
+    padding: 25px;
+}
+
+.footer {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    font: 18px;
+    color: #F9FAF8;
 }
 
 ul {
@@ -44,28 +91,45 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font: 18px;
+}
+
+li {
+    margin-right: 8px;
 }
 
 a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 button {
     font-family: Roboto, sans-serif;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     background: #3882F6;
 }
 
 /* Hero main text */
 h1 {
-    font: 48px extra-bold #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 /* Hero secondary text, header link text */
-h2 {
-    font: 18px #E5E7EB;
+.second {
+    font: 18px;
+    color: #E5E7EB;
+}
+
+/* Header logo text */
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.product {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
 }
