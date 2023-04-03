@@ -1,4 +1,7 @@
 # odin-landing-page
 A project through the Odin Project to create a website landing page using flex box
 
-I created karto.png using Procreate and a picture of my dog. 
+karto.png created by RedProtractor
+image-not-found.png created by RedProtractor
+
+<!-- &copy; Copyright symbol --> 
