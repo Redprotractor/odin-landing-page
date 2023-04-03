@@ -65,6 +65,7 @@ body {
     flex-flow: column;
     justify-content: stretch;
     align-items: stretch;
+    width: page;
 
 }
 
@@ -74,6 +75,13 @@ body {
     color: #E5E7EB;
     margin: 75px;
     padding: 25px;
+    width: 750px;
+    justify-content: space-around;
+}
+
+/* button in the call to action */
+.action {
+    border: 2px solid #F9FAF8;
 }
 
 .footer {
@@ -108,7 +116,11 @@ button {
     border: none;
     border-radius: 5px;
     background: #3882F6;
+    width: 100px;
+    color: #F9FAF8;
 }
+
+
 
 /* Hero main text */
 h1 {
