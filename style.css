@@ -38,6 +38,7 @@ body {
 .shelf {
     flex-direction: row;
     display: inline-flex;
+    align-items: center;
 }
 
 .block {
@@ -45,9 +46,10 @@ body {
     height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
     gap: 16px;
+    margin-top: 10px;
 }
 
 .left {
