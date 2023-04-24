@@ -57,15 +57,15 @@ body {
 
 .quote {
     background: #E5E7EB;
-    font: 36px light italic #1F2937;
-    margin: 75px;
-    padding: 24px;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 50px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
-    flex-flow: column;
-    justify-content: stretch;
-    align-items: stretch;
-    width: page;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
 
 }
 
@@ -75,13 +75,16 @@ body {
     color: #E5E7EB;
     margin: 75px;
     padding: 25px;
-    width: 750px;
-    justify-content: space-around;
+    width: 75%;
+    justify-content: center;
+    gap: 50px;
 }
 
 /* button in the call to action */
 .action {
     border: 2px solid #F9FAF8;
+    margin: 15px;
+
 }
 
 .footer {
@@ -90,7 +93,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #1F2937;
-    font: 18px;
+    font-size: 18px;
     color: #F9FAF8;
 }
 
@@ -118,6 +121,7 @@ button {
     background: #3882F6;
     width: 100px;
     color: #F9FAF8;
+    padding: 10px;
 }
 
 
@@ -131,7 +135,7 @@ h1 {
 
 /* Hero secondary text, header link text */
 .second {
-    font: 18px;
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -144,4 +148,13 @@ h1 {
 .product {
     border-radius: 25px;
     border: 2px solid #3882F6;
+}
+
+strong {
+    align-self: flex-end;
+    margin-right: 25%;
+}
+
+em {
+    width: 50%;
 }
